@@ -2,7 +2,7 @@ h2 {
   color: blue
 }
 body{
-  background-image: url("https://png.pngtree.com/element_our/md/20180427/md_86ee76435fa3d779427741a258da3dbd.jpg");
+  background-image: url("https://png.pngtree.com/element_our/md/20180427/md_86ee76435fa3d779427741a258da3dbd.jpg" height = 300%, width = 300%);
 }
 #f1{
   font-family: 'Dancing Script', cursive; font-size: 18
