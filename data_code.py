@@ -17,6 +17,7 @@ tweetFile = open("tweets_small.json", "r")
 tweetData = json.load(tweetFile)
 # print(tweetData[0].keys())
 tweetFile.close()
+tweetList = []
 
 # print(type(tweetData))
 # print(type(tweetData[0]))
@@ -40,7 +41,23 @@ tweetFile.close()
 tweet_texts = []
 for t in range(len(tweetData)):
 		tweet_texts.append(tweetData[t]["text"])
-print(tweet_texts)
+
+
+def wordCount(stringOfTweet, string1):
+	count = 0
+	string1 = string1.lower()
+	wordList = stringOfTweet.split(" ")
+	for item in wordList:
+		if item == string1:
+			counter += 1
+	return counter
+	#Let's make a list of times a word occurs in a tweet
+wordCountList = []
+for item in tweet_texts:
+	wordoccurence = wordCount(item, "the")
+	wordCountList.append(wordoccurence)
+
+# print(tweet_texts)
 
 # tweetID = []
 # for i in range(len(tweetData)):
@@ -74,6 +91,7 @@ def countLetter(string, letter):
 			counter += 0
 		# print(counter)
 	return counter
+
 
 tweetstring = ""
 for tweet in tweet_texts:
