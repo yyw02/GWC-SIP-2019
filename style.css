@@ -3,8 +3,11 @@ h2 {
 }
 
 #f1{
-  font-family: 'Dancing Script', cursive; font-size: 25px
+  font-family: 'Dancing Script', cursive; font-size: 30px
 }
 #f2{
-  font-family: 'Courgette', cursive; font-size: 20px
+  font-family: 'Courgette', cursive; font-size: 18px
+}
+body{
+  background-image: url("https://ak3.picdn.net/shutterstock/videos/23197033/thumb/1.jpg?i10c=img.resize(height:160)");
 }
