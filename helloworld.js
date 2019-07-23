@@ -1,6 +1,4 @@
-console.log("Hello World");
 
-var h1tag = document.getElementsByTagName('h1')[0];
 var pos = 0;
 var loc = document.getElementsByClassName("headings")[3];
 
@@ -15,3 +13,11 @@ function changAdj(){
     pos =0;
     }
   }
+
+Math.random()
+var x = document.getElementsByTagName("body")[0]
+
+function colorfulBackground(){
+  x.setAttribute("style", `background-color:rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`)
+}
+x.setAttribute("onmouseover", colorfulBackground());
