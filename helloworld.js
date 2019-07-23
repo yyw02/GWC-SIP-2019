@@ -1,6 +1,6 @@
 
 var pos = 0;
-var loc = document.getElementsByClassName("headings")[3];
+var loc = document.getElementsById("abc")
 
 var adj = ["brave", "resilient", "lovely", "happy"]
 
