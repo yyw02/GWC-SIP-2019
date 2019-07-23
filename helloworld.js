@@ -2,7 +2,7 @@
 var pos = 0;
 var loc = document.getElementsByClassName("headings")[3];
 
-var adi = ["brave", "resilient", "lovely", "happy"]
+var adj = ["brave", "resilient", "lovely", "happy"]
 
 document.getElementById("adj")
 
@@ -20,4 +20,3 @@ var x = document.getElementsByTagName("body")[0]
 function colorfulBackground(){
   x.setAttribute("style", `background-color:rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`)
 }
-x.setAttribute("onmouseover", colorfulBackground());
