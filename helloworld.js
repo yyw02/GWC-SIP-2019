@@ -12,5 +12,4 @@ function changeAdj(){
 
 var x = document.getElementsByTagName("body")[0]
 function colorfulBackground(){
-  x.setAttribute("style", `background-color:rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`)
-}
+  x.setAttribute("style", `background-color:rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`)}
