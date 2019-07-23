@@ -1,10 +1,6 @@
-
+var adj = ["brave", "resilient", "lovely", "happy", "lvely","friendly", "kind"];
 var pos = 0;
-var loc = document.getElementsById("abc")
-
-var adj = ["brave", "resilient", "lovely", "happy"]
-
-document.getElementById("adj")
+var loc = document.getElementById("abc");
 
 function changAdj(){
   loc.innerHTML = adjectives[pos];
